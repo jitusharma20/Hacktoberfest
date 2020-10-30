@@ -9,7 +9,7 @@ void pascal(int n) //pascal in
         int c = 1;
         for (int j = 1; j <= i; j++)
         {
-            cout<<c<<" ";
+            cout<<c<<" ";     //printing all values
             c = c * (i-j)/j;
         }
         cout<<endl;
